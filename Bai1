@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+// Hàm kiểm tra số nguyên có 2 chữ số và là bội của 7
+void inCacSoBoicua7() {
+    for (int i = 10; i <= 99; i++) {
+        if (i % 7 == 0) {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
+}
+
+int main() {
+    // Gọi hàm để in các số nguyên có 2 chữ số và là bội của 7
+    inCacSoBoicua7();
+    return 0;
+}
